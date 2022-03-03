@@ -1,1 +1,3 @@
-# Curso de CSS Grid B$\'{a}\'{a}$sico;
+![GitHub Brillante](https://github.com/github-light.png#gh-dark-mode-only)
+
+# Curso de CSS Grid Básico;
