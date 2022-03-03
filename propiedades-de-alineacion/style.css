@@ -22,29 +22,46 @@
 
 .contenedor .item{
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
+/*  */
 .item:nth-child(3n+1){
     background:#ADD901;
 }
 
-.item:nth-child(-n+5) p {
-    background-color:#268201
-}
-
-.item:nth-child(6) p,.item:nth-child(3) p{
-    background-color: #173902;
+.item:nth-child(3n+1) p{
+    background:#268201;
 }
 
 .item:nth-child(3n+2){
     background:#71BB05;
 }
 
+.item:nth-child(3n+2) p{
+    background:#268201;
+}
+
 .item:nth-child(3n+3){
     background:#268201;
 }
+
+.item:nth-child(3n+3) p{
+    background:#173902;
+}
+
+
+
+/* .item:nth-child(-n+5) p {
+    background-color:#268201
+}
+
+.item:nth-child(6) p,.item:nth-child(3) p{
+    background-color: #173902;
+} */
+
+
 
 .item p{
     color: #fff;
