@@ -31,4 +31,4 @@ Item
     </div>
 ```
 Linea
-![](https://res.cloudinary.com/dngcu1bvt/image/upload/v1646336913/curso-css-grid/lineas-clase-2_mqmgwm.svg)
+![](https://res.cloudinary.com/dngcu1bvt/image/upload/v1646337285/curso-css-grid/Sin_t%C3%ADtulo-2_hvbopq.png)
