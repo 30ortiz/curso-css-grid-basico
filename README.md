@@ -1,1 +1,1 @@
-# Curso de CSS Grid B$\'{a}\'$sico;
+# Curso de CSS Grid B$\'{a}\'{a}$sico;
