@@ -67,3 +67,13 @@ Item: Son los elementos que estan en el contenedor y se convierten en Grid Item 
 - justify-self
 - align-self
 - place-self
+
+### Propiedades de ubicación
+
++ grid-column
+    - grid-column-start
+    - grid-column-end
+
++ grid-row
+    -   grid-row-start
+    -   grid-row-end 
