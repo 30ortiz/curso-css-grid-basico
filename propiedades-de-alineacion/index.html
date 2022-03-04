@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Grid | Propiedades de alineaci&oacute;n | </title>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Propiedades de alineaci&oacute;n</h1>
+    </div>
+    <section class="main-container-grid">
+        <div class="background-grid">
+            <div class="grid"> 
+                    <div class="item item-1"></div>
+                    <div class="item item-2"></div>
+                    <div class="item item-1"></div>
+                    <div class="item item-2"></div>
+            </div>
+        </div>
+        <div class="background-code">
+            <code>
+                CSS<br><br>
+                .grid<br>{<br>
+                display:grid;<br>
+                grid-template-columns: 1fr 1fr;<br>
+                justify-items:end;<br>
+                align-items: end;<br>
+                row-gap:35px;<br>
+                column-gap: 35px<br>
+                <br>
+                background-color: #fff;<br>
+                height: 50vh;<br>
+                width: 50vh;<br>
+                background:#ADD901;<br>
+                
+            }<br>
+            <br>
+            .item<br>
+            {<br>
+                justify-content:end;<br>
+                align-items:end;<br>
+                <br>
+                background-color: #62A81E;<br>
+                width:20%;<br>
+                height:50%<br>
+            }</code>
+        </div>
+    </section>   
+</body>
+</html>

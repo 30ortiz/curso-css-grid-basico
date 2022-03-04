@@ -52,4 +52,18 @@ Item: Son los elementos que estan en el contenedor y se convierten en Grid Item 
 - grid-auto-rows [Doc](https://developer.mozilla.org/es/docs/Web/CSS/grid-auto-rows)
 
 ## Propiedades de alineación 
+
+### Propiedades para la alineación de los items (elementos):
 - justify-items
+- align-items
+- place-items
+
+### Propiedades para la alineación del container(El Contenedor):
+- justify-content
+- align-content
+- place-content
+
+### Propiedades para la alineación de un solo item individual
+- justify-self
+- align-self
+- place-self

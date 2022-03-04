@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
 body {
     background-color: #f8f8f8;
     height: 100vh;
@@ -51,55 +49,25 @@ body {
     padding: 10px;
 }
 
-
-.contenedor{
-    width:auto;
-    
-    display: grid;
-    /* grid-template-columns:100px 200px 300px; */
-    grid-template-rows: 110px 110px 110px;
-    grid-auto-columns: 110px 110px;
-    grid-auto-flow:column ;
-    /* row-gap: 15px;
-    column-gap: 30px; */
-    grid-gap: 20px;
-    justify-content: center;
-
-    /*  */
-    margin: 10px;
-    padding: 10px;
-
-}
-
-.contenedor .item{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-/*  */
-.item:nth-child(3n+1){
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    height: 50vh;
+    width: 50vh;
     background:#ADD901;
+    justify-items:end;
+    align-items: end;
+    row-gap:35px;
+    column-gap: 35px
 }
 
-.item:nth-child(3n+1) p{
-    background:#268201;
-}
-
-.item:nth-child(3n+2){
-    background:#71BB05;
-}
-
-.item:nth-child(3n+2) p{
-    background:#268201;
-}
-
-.item:nth-child(3n+3){
-    background:#268201;
-}
-
-.item:nth-child(3n+3) p{
-    background:#173902;
+.item{
+    background-color: #62A81E;
+    justify-content:end;
+    align-items:end;
+    width:20%;
+    height:50%
 }
 
 
@@ -129,35 +97,4 @@ code{
     font-size: .8rem;
 
 }
-
-
-
-/* .item:nth-child(-n+5) p {
-    background-color:#268201
-}
-
-.item:nth-child(6) p,.item:nth-child(3) p{
-    background-color: #173902;
-} */
-
-
-
-.item p{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 3px;
-    margin: 0;
-    width:25%;
-    height:30%;
-    font-size: 1.5rem;
-}
-
-h1{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-
 
