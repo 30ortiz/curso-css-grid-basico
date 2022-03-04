@@ -2,6 +2,13 @@
 
 ## ¿Qué es CSS Grid Layout?
 
+Páginas con ejemplos:
+[Propiedades de contenedor](https://30ortiz.github.io/curso-css-grid-basico/propiedades-de-contenedor/)
+[Propiedades de alineación](https://30ortiz.github.io/curso-css-grid-basico/propiedades-de-contenedor/)
+[Propiedades de ubicación](https://30ortiz.github.io/curso-css-grid-basico/propiedades-de-ubicacion/)
+
+
+
 Es un sistema de grilla, que tiene columnas y filas.
 
 ![](https://res.cloudinary.com/dngcu1bvt/image/upload/v1646335201/curso-css-grid/Sin_t%C3%ADtulo-1_vwedwk.svg)
@@ -77,3 +84,5 @@ Item: Son los elementos que estan en el contenedor y se convierten en Grid Item 
 + grid-row
     -   grid-row-start
     -   grid-row-end 
+
++ grid-area
