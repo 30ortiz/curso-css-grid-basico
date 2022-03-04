@@ -3,8 +3,11 @@
 ## ¿Qué es CSS Grid Layout?
 
 Páginas con ejemplos:
+
 [Propiedades de contenedor](https://30ortiz.github.io/curso-css-grid-basico/propiedades-de-contenedor/)
+
 [Propiedades de alineación](https://30ortiz.github.io/curso-css-grid-basico/propiedades-de-contenedor/)
+
 [Propiedades de ubicación](https://30ortiz.github.io/curso-css-grid-basico/propiedades-de-ubicacion/)
 
 
