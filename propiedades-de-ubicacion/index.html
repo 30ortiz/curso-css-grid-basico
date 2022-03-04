@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Grid | Propiedades de ubicaci&oacute;n | </title>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Propiedades de ubicaci&oacute;n</h1>
+    </div>
+    <section class="main-container-grid">
+        <div class="background-grid">
+            <div class="grid"> 
+                <div class="item item-1"></div>
+                <div class="item item-2"></div>
+                <div class="item item-3"></div>
+                <div class="item item-4"></div>
+                <div class="item item-5"></div>
+                <div class="item item-6"></div>
+                <div class="item item-7"></div>                           
+            </div>
+        </div>
+        <div class="background-code">
+            <code>
+                CSS<br>
+                .grid{  <br>
+                    display: <span>grid</span>;<br>
+                    grid-template-rows: <span>1fr 1fr 1fr</span>;<br>
+                    grid-template-columns: <span>1fr 1fr 1fr</span>;<br>
+                    grid-template-areas: <br>
+                    <span>
+                    "item1 item2 item2"<br>
+                    "item3 item3 item4"<br>
+                    "item7 item5 item6" ;<br>
+                     </span>
+                    place-content: <span>center</span>;<br>
+                }<br>
+                <br>
+                .grid>.item-1{<br>
+                    background-color: <span>var(--bg-color-item1)</span>;<br>
+                    grid-area:<span>1 / 2 / 1 / 2</span> ; <br>
+                     //Or<br>
+
+                    grid-row: <span>1 / 2</span>;<br>
+                    grid-column:<span>1 / 2 </span>;<br>
+                    //Or<br>
+                    grid-column-start:<span>1</span>;<br>
+                    grid-column-end:<span>2</span>;<br> 
+                    //Or<br>
+                    grid-row-start:<span>1</span>; <br>
+                    grid-row-end:<span>2</span>;  <br>
+                    grid-area: <span>item1</span>;<br>
+                } <br>
+                ...<br> 
+                .grid>.item-2{...}
+            </code>
+        </div>
+    </section>   
+</body>
+</html>
